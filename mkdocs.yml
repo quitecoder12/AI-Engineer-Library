@@ -1,0 +1,45 @@
+site_name: AI Engineer Library
+site_description: The Complete AI Engineering Documentation Library
+site_author: Ajit
+
+repo_name: quitecoder12/AI-Engineer-Library
+repo_url: https://github.com/quitecoder12/AI-Engineer-Library
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.tasklist
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Learning Path: learning-path.md
+  - Glossary: glossary.md
+  - Python:
+      - python/index.md
